@@ -9,7 +9,7 @@ def perform_login(username, password):
     LOGIN_URL = "https://example.com/login"
 
     # Initialize the Chrome WebDriver
-    driver = webdriver.Chrome('/path/to/chromedriver')
+    driver = webdriver.Chrome('chromedriver.exe')
 
     # Navigate to the login page
     driver.get(LOGIN_URL)
